@@ -11,6 +11,11 @@
         padding: 0;
       }
 
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: #232322;
+      }
+
       section {
         margin: 0 auto;
         padding: 50px;
@@ -24,13 +29,23 @@
       }
 
       h1 {
-        color: #232322;
-        font: 500 22px/32px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
       }
 
       h2 {
         color: #7c7870;
-        font: 300 19px/25px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 25px;
+      }
+
+      h3 {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 25px;
+        margin: 0 0 10px;
       }
 
       hr {
@@ -43,7 +58,9 @@
 
       p {
         color: #acacac;
-        font: 300 17px/27px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
         margin: 0 0 10px 10px;
         text-align: left;
       }
@@ -55,6 +72,12 @@
       a:hover {
         color: #175DAF;
       }
+
+      ol {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+      }
     </style>
 
     <script>
@@ -65,7 +88,6 @@
 
       ga('create', 'UA-27355804-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </head>
 
@@ -82,6 +104,14 @@
         <p>Passionate about Ruby, HTML5, JavaScript and Server&nbsp;management. I also <a href="https://github.com/ayrton">contribute</a> and <a href="http://railsgirls.com/">coach</a>.</p>
 
         <p>If you'd like to get into contact, you can reach me either via <a href="mailto:hello@ayrton.be">e-mail</a> or <a href="https://twitter.com/ayrtonbe">Twitter</a>.</p>
+
+        <hr />
+
+        <h3>Articles</h3>
+
+        <ol>
+          <li><a href="https://github.com/ayrton/remotestories/pull/1" target="_blank">Using absolute import paths in React Create App</a></li>
+        </ol>
       </section>
   </body>
 </html>
