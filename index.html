@@ -11,21 +11,18 @@
         padding: 0;
       }
 
+      html {
+        font: 100% / 1.5 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+      }
+
       body {
-        font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         color: #232322;
       }
 
       section {
         margin: 0 auto;
-        padding: 50px;
+        padding: 30px 50px;
         max-width: 400px;
-      }
-
-      img {
-        margin: 0 0 15px 0;
-        height: 125px;
-        width: 125px;
       }
 
       h1 {
@@ -78,6 +75,15 @@
         font-weight: 300;
         line-height: 27px;
       }
+
+      .avatar {
+        background: #13273b;
+        background-image: linear-gradient(90deg, #0a1e26 0%, #173946 53%, #114d52 100%);
+        border-radius: 50%;
+        height: 125px;
+        margin: 0 0 20px 0;
+        width: 125px;
+      }
     </style>
 
     <script>
@@ -94,25 +100,34 @@
   <body>
       <section>
         <center>
-          <img src="images/ayrton.jpg" alt="Ayrton De Craene" />
+          <div class="avatar"></div>
           <h1>Ayrton De Craene</h1>
-          <h2>Web developer</h2>
+          <h2>Software writer / Full stack web engineer</h2>
         </center>
 
         <hr />
 
-        <p>Passionate about Ruby, HTML5, JavaScript and Server&nbsp;management. I also <a href="https://github.com/ayrton">contribute</a> and <a href="http://railsgirls.com/">coach</a>.</p>
+        <p>Passionate about products, makers and remote work. <a href="https://github.com/ayrton">Contributes</a> and <a href="http://railsgirls.com/">coaches</a>.</p>
 
         <p>If you'd like to get into contact, you can reach me either via <a href="mailto:hello@ayrton.be">e-mail</a> or <a href="https://twitter.com/ayrtonbe">Twitter</a>.</p>
 
         <hr />
 
-        <h3>Projects I worked on:</h3>
+        <h3>Projects I enjoy working on:</h3>
 
         <ol>
-          <li><a href="https://www.producthunt.com" target="_blank">Product Hunt</a><p>The best new products, every day</p></li>
-          <li><a href="https://www.remotestories.com" target="_blank">Remote Stories</a><p>Anonymous stories from remote workers</p></li>
-          <li><a href="https://github.com/ayrton/react-key-handler" target="_blank">react-key-handler</a><p>React component to handle keyboard events</p></li>
+          <li><a href="https://www.producthunt.com" target="_blank">Product Hunt</a><p>The best new products, every day.</p></li>
+          <li><a href="https://www.remotestories.com" target="_blank">Remote Stories</a><p>Anonymous stories from remote workers.</p></li>
+        </ol>
+
+        <hr />
+
+        <h3>Libraries I contribute to:</h3>
+
+        <ol>
+          <li><a href="https://github.com/ayrton/react-key-handler" target="_blank">ayrton/react-key-handler</a><p>React component to handle keyboard events 🔑.</p></li>
+          <li><a href="https://github.com/ayrton/react-cluster" target="_blank">ayrton/react-cluster</a><p>React component to display large sets of data in a scroll container.</p></li>
+          <li><a href="https://github.com/producthunt/chai-enzyme" target="_blank">producthunt/chai-enzyme</a><p>Chai.js assertions and convenience functions for testing React Components with enzyme.</p></li>
         </ol>
       </section>
   </body>
